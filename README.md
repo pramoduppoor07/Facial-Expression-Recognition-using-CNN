@@ -62,13 +62,14 @@ model = Sequential([
     Dense(7, activation='softmax')
 ])
 ```
+---
 ##  Accuracy Results
 
 | Dataset       | Accuracy |
 |---------------|----------|
-| Training Set  | ~XX%     |
-| Validation    | ~XX%     |
-| Test Set      | ~XX%     |
+| Training Set  | ~56%     |
+| Validation    | ~54%     |
+| Test Set      | ~55%     |
 
 > Replace XX with actual results from your model output.
 
@@ -81,8 +82,10 @@ After training, the model can predict the emotion from a given image:
 ```python
 predict_image('/content/FER-2013/test/happy/PrivateTest_10613684.jpg')
 # Output: happy
-##  How to Run This Project
 ```
+---
+##  How to Run This Project
+
 1. Clone the repository:
 
 ```bash
@@ -90,11 +93,12 @@ git clone https://github.com/yourusername/facial-expression-cnn-fer2013.git
 cd facial-expression-cnn-fer2013
 ```
 
-2. Open the notebook in Google Colab or Jupyter.
+2. Run the Jupyter Notebook:
+```bash
+jupyter notebook
+```
+---
 
-3. Upload and extract the FER-2013 dataset into `/content`.
-
-4. Run the training cells, evaluate the model, and test predictions.
 ##  Future Improvements
 
 -  Add Data Augmentation using `ImageDataGenerator`
