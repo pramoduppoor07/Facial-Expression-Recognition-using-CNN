@@ -88,8 +88,8 @@ predict_image('/content/FER-2013/test/happy/PrivateTest_10613684.jpg')
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/facial-expression-cnn-fer2013.git
-cd facial-expression-cnn-fer2013
+git clone https://github.com/pramoduppoor07/Facial-Expression-Recognition-using-CNN.git
+cd Facial-Expression-Recognition-using-CNN
 ```
 
 2. Run the Jupyter Notebook:
