@@ -71,7 +71,6 @@ model = Sequential([
 | Validation    | ~54%     |
 | Test Set      | ~55%     |
 
-> Replace XX with actual results from your model output.
 
 ---
 
